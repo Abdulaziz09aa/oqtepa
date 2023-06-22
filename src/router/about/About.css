@@ -1,0 +1,51 @@
+.about{
+    width: 100%;
+    height: auto;
+}
+.about h1{
+    margin: 40px 120px;
+}
+.about__img{
+    width: 80%;
+    height: 250px;
+    margin: -10px 120px;
+    border-radius: 12px;
+    background: url("../../assets/products/about.jpg") no-repeat center/cover;
+}
+.about h4{
+    margin: 20px 120px;
+    font-size: 16px;
+}
+.about h3{
+    margin: 5px 120px;
+    font-size: 16px;
+}
+.about h2{
+    margin: 5px 120px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 426px){
+    .about h1{
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .about__img{
+        transform: translate(-70px);
+    }
+    .about h4{
+        width: 80%;
+        font-size: 12px;
+        transform: translate(-70px);
+    }
+    .about h3{
+        width: 80%;
+        font-size: 12px;
+        transform: translate(-70px);
+    }
+    .about h2{
+        width: 80%;
+        font-size: 12px;
+        transform: translate(-70px);
+    }
+}

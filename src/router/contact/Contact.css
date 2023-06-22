@@ -1,0 +1,98 @@
+.contact{
+    width: 100%;
+    height: auto;
+}
+.contact h1{
+    margin: 20px 45px;
+}
+.contact__big{
+    width: 95%;
+    height: auto;
+    margin: 20px 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact__big__img{
+    width: 60%;
+    height: 250px;
+    margin: 20px 22px;
+    border-radius: 8px;
+    background: url("../../assets/products/contacts_img.jpg") no-repeat center/cover;
+}
+.contact__big__qr{
+    width: 27%;
+    height: 250px;
+    margin: 20px 22px;
+    background: rgb(117, 141, 184);
+    border-radius: 8px;
+}
+.contact__qr{
+    width: 130px;
+    height: 130px;
+    margin: 20px 20px;
+    border-radius: 6px;
+    background: url("../../assets/products/qr_oqtepa_contact.png") no-repeat center/contain;
+}
+.contact__big__qr h3{
+    font-size: 15px;
+    color: #fff;
+    margin: -5px 20px;
+    margin-left: 20px;
+}
+.contact__big__qr h4{
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 19px;
+}
+.contact__big__address{
+    width: 25%;
+    height: 250px;
+    margin: 20px 20px;
+}
+.contact__big__address h2{
+    margin: 20px 20px;
+}
+.contact__big__address h4{
+    margin: 20px 20px;
+}
+
+@media screen and (max-width: 660px){
+    .contact h1{
+       text-align: center;
+    }
+    .contact__big{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .contact__big__img{
+        width: 90%;
+    }
+    .contact__big__address{
+        margin: -40% 60%;
+    }
+    .contact__big__address h2{
+        font-size: 10px;
+    }
+    .contact__big__address h4{
+        font-size: 10px;
+    }
+    .contact__big__qr{
+        width: 40%;
+        height: 280px;
+    }
+}
+@media screen and (max-width: 426px){
+    .contact__big{
+        height: 600px;
+    }
+    .contact__big__qr{
+        width: 50%;
+        height: 280px;
+        margin: -20px 20px;
+    }
+    .contact__big__address{
+        transform: translate(20px);
+        margin-top: -300px;
+    }
+}
+
